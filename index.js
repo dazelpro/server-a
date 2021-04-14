@@ -2,12 +2,17 @@ const express = require('express');
 const app = express();
 
 app.get('/', function (req, res) {
-    res.send('API 1')
+    res.send('Selamat datang !')
 })
 
-app.get('/second', function (req, res) {
-    res.send('API 2')
+app.get('/api-product', function (req, res) {
+    res.send('Ini adalah API Produk')
 })
+
+app.get('/api-product/001', function (req, res) {
+    res.send('Ini adalah API Detail Produk')
+})
+
 
 app.listen(8080, () => {
     console.log('Server running in port : 8080');
