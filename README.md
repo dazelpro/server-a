@@ -10,11 +10,17 @@
 ### Route 1
 
 ```sh
-(GET) http://localhost:8080/api-register/send-mail
+(GET) http://localhost:8080/
 ```
 
 ### Route 2
 
 ```sh
-(GET) http://localhost:8081/api-login/auth
+(GET) http://localhost:8080/api-product
+```
+
+### Route 3
+
+```sh
+(GET) http://localhost:8080/api-product/001
 ```
